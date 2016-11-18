@@ -6,9 +6,74 @@
             box-sizing: border-box;
 }
 
-.container {
-  padding-right: 15px;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  color: #8C9A9D;
+  margin: 0;
+}
+h2 {
+  margin-left: 20px;
+  color: white;
+}
+h3 {
+  color: #4B5658;
+}
+h5{
+  color: white;
+  margin-right: 10px;
+  float: right;
+}
+
+.main-display {
+  margin-left: 55px;
+}
+.beer {
+  float: left;
+  margin-left: 20px;
+  margin-top: 300px;
+  margin-right: 15px;
+}
+
+#header {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 3px;
+  box-shadow: 0 4px 6px -6px #222;
+  font-family: 'Pacifico', cursive;
+}
+
+#country-icon {
+  margin-top: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 15px;
+  float: left;
+}
+
+#background {
+  width: 1600px;
+  height: 900px;
+  margin: auto;
+  background-image: url('../img/ocean.jpg');
+}
+
+#box-content {
+  padding: 20px;
+}
+
+#box2 {
+  background-color: white;
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 6px -6px #222;
+  border-radius: 0 0 5px 5px;
+}
+#box2-header {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+  height: 55px;
+  background: #F092B0;
 }
