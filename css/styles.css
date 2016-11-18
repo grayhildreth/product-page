@@ -57,7 +57,7 @@ h3 {
   height: 900px;
   margin: auto;
   background-image: url('../img/ocean.jpg');
-  position: absolute;
+  position: relative;
 }
 
 #beer-info {
