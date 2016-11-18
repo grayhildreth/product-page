@@ -58,22 +58,6 @@ h5{
   background-image: url('../img/ocean.jpg');
 }
 
-#box-content {
+#beer-info {
   padding: 20px;
-}
-
-#box2 {
-  background-color: white;
-  float: left;
-  width: 500px;
-  height: 300px;
-  margin: 20px;
-  box-shadow: 0 4px 6px -6px #222;
-  border-radius: 0 0 5px 5px;
-}
-#box2-header {
-  overflow: hidden;
-  border-radius: 5px 5px 0 0;
-  height: 55px;
-  background: #F092B0;
 }
