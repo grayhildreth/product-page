@@ -11,44 +11,16 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 p {
-  color: white;
+  color: #A98D40;
   margin: 0;
 }
 h1 {
   margin-left: 20px;
   color: white;
 }
+
 h3 {
-  color: #FDE74C;
-}
-h5{
-  color: white;
-  margin-right: 10px;
-  float: right;
-}
-
-.main-display {
-  margin-left: 55px;
-}
-.beer {
-  position: absolute;
-  top: 27%;
-  left: 25%;
-}
-
-.description {
-  display: none;
-  border: 2px solid;
-  border-color: #43AA8B;
-  padding: 20px;
-  background-color: #EAF2E3;
-  margin-top: 10px;
-  max-width: 500px;
-}
-
-div div:hover > .description {
-  display: block;
-  float: right;
+  color: #2F2C6B;
 }
 
 #header {
@@ -67,6 +39,7 @@ div div:hover > .description {
 }
 
 #background {
+  background-position: center;
   width: 1600px;
   height: 900px;
   margin: auto;
@@ -77,4 +50,42 @@ div div:hover > .description {
   float: right;
   padding: 20px;
   max-width: 400px;
+}
+
+.beer {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+
+.description {
+  display: none;
+  border: 2px solid;
+  border-color: #2F2C6B;
+  padding: 20px;
+  background-color: #F4E003;
+  margin-top: 10px;
+  max-width: 500px;
+  float:right;
+}
+
+div div:hover > .description {
+  display: block;
+  position: relative;
+}
+
+.thumbnail {
+  width:200px;
+}
+
+.gallery {
+  width: 500px;
+  float: right;
+  padding-left: 50px;
+  /*align-content: center;*/
+}
+
+.insta {
+  text-align: center;
+  color: white;
 }
