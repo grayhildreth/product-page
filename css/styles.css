@@ -7,18 +7,19 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Oswald', sans-serif;
 }
 p {
-  color: #8C9A9D;
+  color: white;
   margin: 0;
 }
-h2 {
+h1 {
   margin-left: 20px;
   color: white;
 }
 h3 {
-  color: #4B5658;
+  color: #FDE74C;
 }
 h5{
   color: white;
@@ -59,5 +60,6 @@ h5{
 }
 
 #beer-info {
+  text-align: center;
   padding: 20px;
 }
