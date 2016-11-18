@@ -31,10 +31,24 @@ h5{
   margin-left: 55px;
 }
 .beer {
-  float: left;
-  margin-left: 20px;
-  margin-top: 300px;
-  margin-right: 15px;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+}
+
+.description {
+  display: none;
+  border: 2px solid;
+  border-color: #43AA8B;
+  padding: 20px;
+  background-color: #EAF2E3;
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+div div:hover > .description {
+  display: block;
+  float: right;
 }
 
 #header {
@@ -60,6 +74,7 @@ h5{
 }
 
 #beer-info {
-  text-align: center;
+  float: right;
   padding: 20px;
+  max-width: 400px;
 }
