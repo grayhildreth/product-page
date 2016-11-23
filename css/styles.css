@@ -8,6 +8,7 @@
 
 body {
   /*font-family: 'Open Sans', sans-serif;*/
+  margin: 0;
   font-family: 'Oswald', sans-serif;
 }
 p {
@@ -44,6 +45,14 @@ h3 {
   font-family: 'Pacifico', cursive;
 }
 
+#header2 p {
+  /*text-align: center;*/
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: white;
+  margin-left: 50px;
+}
+
 #country-icon {
   margin-top: 15px;
   padding-left: 15px;
@@ -52,12 +61,40 @@ h3 {
 }
 
 #background {
-  background-position: center;
-  width: 1600px;
+  /*background-position: center;*/
+  width: 1200px;
   height: 900px;
-  margin: auto;
+  /*margin: auto;*/
   background-image: url('../img/ocean.jpg');
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  /*background-position: center;*/
+  width: 1200px;
+  height: 900px;
+  /*margin: auto;*/
+  background-image: url('../img/ocean2.jpg');
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#table {
+  width: 200px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+table, td {
+  border: 1px solid;
+  border-color: #2F2C6B;
+  background-color: #F4E003;
 }
 
 #beer-info {
@@ -102,4 +139,10 @@ div div:hover > .description {
   left: 50%;
   margin-right: -50%;
   color: white;
+}
+
+.six-pack img {
+  float: left;
+  width: 250px;
+  height: 250px;
 }
