@@ -2,7 +2,7 @@
 
 #### _CSS Code Review (Week 1), Nov. 18th, 2016_
 
-#### By _**{List of contributors}**_
+#### By _**Gray Hildreth**_
 
 ## Description
 
