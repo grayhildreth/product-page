@@ -61,7 +61,6 @@ h3 {
 }
 
 #background {
-  /*background-position: center;*/
   width: 1200px;
   height: 900px;
   /*margin: auto;*/
@@ -73,9 +72,8 @@ h3 {
 }
 
 #background2 {
-  /*background-position: center;*/
   width: 1200px;
-  height: 900px;
+  height: 500px;
   /*margin: auto;*/
   background-image: url('../img/ocean2.jpg');
   position: relative;
@@ -105,8 +103,20 @@ table, td {
 
 .beer {
   position: absolute;
-  top: 37%;
+  top: 17%;
   left: 10%;
+}
+
+.history {
+  max-width: 450px;
+}
+
+.history h3 {
+  color: #F4E003;
+}
+
+.history p {
+  color: white;
 }
 
 .description {
@@ -116,8 +126,9 @@ table, td {
   padding: 20px;
   background-color: #F4E003;
   margin-top: 10px;
+  margin-left: 50px;
   max-width: 500px;
-  float:right;
+  float: left;
 }
 
 div div:hover > .description {
