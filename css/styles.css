@@ -36,6 +36,12 @@ h3 {
   color: #2F2C6B;
 }
 
+table, td {
+  border: 1px solid;
+  border-color: #2F2C6B;
+  background-color: #F4E003;
+}
+
 #header {
   width: 1600px
   margin-left: 10px;
@@ -89,11 +95,6 @@ h3 {
   margin-top: 50px;
 }
 
-table, td {
-  border: 1px solid;
-  border-color: #2F2C6B;
-  background-color: #F4E003;
-}
 
 #beer-info {
   float: right;
@@ -117,6 +118,7 @@ table, td {
 
 .history p {
   color: white;
+  position: absolute;
 }
 
 .description {
@@ -143,12 +145,19 @@ div div:hover > .description {
 .gallery {
   width: 500px;
   float: right;
-  /*align-content: center;*/
+  margin-top: 35px;
+  margin-right: 20px;
+  border-radius: 25px;
+  background: rgba(244, 224, 3, .5)
+  /*opacity: 0.6;*/
+}
+
+.photos {
+  margin-left: 50px;
 }
 
 .insta {
-  left: 50%;
-  margin-right: -50%;
+  text-align: center;
   color: white;
 }
 
