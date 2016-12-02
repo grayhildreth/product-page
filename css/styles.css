@@ -7,7 +7,6 @@
 }
 
 body {
-  /*font-family: 'Open Sans', sans-serif;*/
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
@@ -29,7 +28,6 @@ h2 {
   float: right;
   margin-right: 20px;
   color: white;
-
 }
 
 h3 {
@@ -119,6 +117,11 @@ table, td {
 .history p {
   color: white;
   position: absolute;
+}
+
+.history p::first-letter {
+  font-size: 130%;
+  font-family: 'Pacifico', cursive;
 }
 
 .description {
